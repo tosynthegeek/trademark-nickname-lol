@@ -106,7 +106,7 @@ async fn main() -> std::io::Result<()> {
             .app_data(web::Data::new(app_state.clone())) // Share app_state across handlers
             .service(web::scope("/").service(do_log_something)) // Register the do_log_something handler under the root path
     })
-    .bind(("127.0.0.1", 3002))?
+    .bind(("127.0.0.1", 3000))?
     .run()
     .await
 }
