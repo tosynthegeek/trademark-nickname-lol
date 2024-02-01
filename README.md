@@ -44,9 +44,9 @@ Server will be accessible at [`localhost:3000`](http://127.0.0.1:3000)
 ### Register a Person
 To register a person and trigger the logging functionality, use the following command:
 ```
-cargo run -- register-person -f [FIRST_NAME] -l [LAST_NAME] -n [NICKNAME]
+cargo run -- -n [NICKNAME] register-person -f [FIRST_NAME] -l [LAST_NAME] 
 ```
-Replace [FIRST_NAME], [LAST_NAME], and [NICKNAME] with the desired values.
+Replace [NICKNAME], [FIRST_NAME] and [LAST_NAME] with the desired values.
 
 Example: 
 ```
