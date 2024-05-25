@@ -1,4 +1,3 @@
-
 # Actix-Web Server with Logging
 
 
@@ -46,7 +45,7 @@ To register a person and trigger the logging functionality, use the following co
 ```
 cargo run -- -n [NICKNAME] register-person -f [FIRST_NAME] -l [LAST_NAME] 
 ```
-Replace [NICKNAME], [FIRST_NAME] and [LAST_NAME] with the desired values.
+Replace [NICKNAME], [FIRST_NAME], and [LAST_NAME] with the desired values.
 
 Example: 
 ```
